@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  background: #0A0A36;
+  font-family: 'GT Walsheim Pro', sans-serif;
   color: #fff
+}
+
+.Data-container {
+  background: url('http://d17dednewomw88.cloudfront.net/assets/images/bootcamp/bars.svg');
+  color: #77778F;
 }
 
 .Logo {
@@ -11,40 +14,69 @@ body {
 }
 
 .Topic-card {
-  background: #EEEEEE;
-  color: #f37981;
-  font-weight: bold;
-  text-transform: uppercase;
+  color: #77778F;
+  font-size: 0.9rem;
 }
 
-.Topic-card h1 {
-  font-size: 2rem;
+.Topic-card .title {
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.Topic-card .title > .separator {
+  color: #C4C4C4;
+  border: 1px solid #E5EAF4;
+  margin: 0 15px;
+}
+
+.blue-line {
+  border-top: 2px solid blue;
+  color: #C4C4C4;
+  display: block;
+  margin: 10px 0;
+  width: 20px;
 }
 
 .Lesson-card {
-  background: #EEEEEE;
+  background: #FFFFFF;
+  border: 1px solid #E5EAF4;
   font-weight: bold;
+  min-height: 250px;
   text-transform: uppercase;
 }
 
+.Lesson-card img {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
 .Lesson-card h1 {
-  border-bottom: #595959 solid 2px;
   color: #0A0A36;
-  font-size: 2rem;
 }
 
 .Lesson-card h2 {
-  color: #f37981;
-  font-size: 1rem;
-  margin: 5px 0;
+  color: #1F359D;
 }
 
 .Lesson-links{
+  border-top: 1px solid #E5EAF4;
   color: #595959;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 
-.Lesson-links hr{
-  color: #595959;
-  
+.Lesson-links a{
+  color: #2E4FEB;
+  margin: 0 15px;
+  text-decoration: underline;
+}
+
+.text-blue {
+  color: #2e4feb;
+}
+
+.underline-bars {
+  background-image: url(http://d17dednewomw88.cloudfront.net/assets/dist/fonts/underline.svg);
+  background-size: cover;
+  background-repeat: repeat-x;
 }

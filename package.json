@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "description": "Bootcamp moove-it",
   "scripts": {
-    "launch": "http-server ./src -p 4001 -o",
+    "launch-bootcamp": "http-server ./src -p 4001 -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
