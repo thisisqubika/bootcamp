@@ -44,6 +44,7 @@ body {
   font-weight: bold;
   min-height: 250px;
   text-transform: uppercase;
+  min-width: 200px;
 }
 
 .Lesson-card img {
@@ -55,14 +56,18 @@ body {
   color: #0A0A36;
 }
 
-.Lesson-card h2 {
-  color: #1F359D;
+.Lesson-slides {
+  color: #2E4FEB;
+  text-decoration: underline;
+  font-size: 0.9rem;
 }
 
 .Lesson-links{
   border-top: 1px solid #E5EAF4;
   color: #595959;
   font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .Lesson-links a{
