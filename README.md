@@ -4,7 +4,8 @@
 
 Here you'll learn the basics of frontend development while building a working web app.
 
-## Setting all up!
+- You can see the running app following this link: [Github-page](https://moove-it.github.io/bootcamp/)
+- Or set it up locally:
 
 ### Required software
 
