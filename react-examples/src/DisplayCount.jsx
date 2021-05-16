@@ -1,8 +1,14 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
+import { decrement, increment } from './reducers/counter.js';
 
-export const DisplayCount = ({ count, setCount }) => (
-  <div>
-    <button onClick={() => setCount(count - 1)}> Decrement! </button>
-    <button onClick={() => setCount(count + 1)}> Increment! </button>
-  </div>
-);
+export const DisplayCount = () => {
+  const dispatch = useDispatch();
+
+  return (
+    <div>
+      <button onClick={() => dispatch(decrement())}> Decrement! </button>
+      <button onClick={() => dispatch(increment())}> Increment! </button>
+    </div>
+  )
+};
