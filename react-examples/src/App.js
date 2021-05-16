@@ -1,10 +1,11 @@
+import React, { useState } from 'react';
 import Welcome from './Welcome';
 import { Counter } from './Counter';
+import { DisplayCount } from './DisplayCount';
 import './App.css';
-import { Form } from './Form';
-import { Interval } from './Interval';
 
 function App() {
+  const [count, setCount] = useState(0);
   const names = ["Ceci"];
 
   return (
@@ -15,9 +16,8 @@ function App() {
             Bienvenido al curso
           </Welcome>
         ))}
-        <Counter />
-        <Form />
-        <Interval />
+        <Counter count={count} />
+        <DisplayCount count={count} setCount={setCount} />
       </header>
     </div>
   );

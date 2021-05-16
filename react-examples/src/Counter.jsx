@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-export const Counter = () => {
-  const [count, setCount] = useState(0);
-
+export const Counter = ({ count }) => {
   return (
     <div>
-      <p>You clicked {count} times!</p>
-      <button onClick={() => setCount(count + 1)}> Count! </button>
+      You clicked {count} times!
     </div>
   );
 }
