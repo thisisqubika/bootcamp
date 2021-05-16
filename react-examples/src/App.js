@@ -1,7 +1,8 @@
 import React from 'react';
-import Welcome from './Welcome';
-import { Counter } from './Counter';
-import { DisplayCount } from './DisplayCount';
+import Welcome from './components/Welcome';
+import { Counter } from './components/Counter';
+import { DisplayCount } from './components/DisplayCount';
+import { Lessons } from './components/Lessons';
 import './App.css';
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         ))}
         <Counter />
         <DisplayCount />
+        <br />
+        <Lessons />
       </header>
     </div>
   );
