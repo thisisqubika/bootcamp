@@ -1,10 +1,9 @@
-import Welcome from './Welcome';
-import { Counter } from './Counter';
-import './App.css';
-import { Form } from './Form';
-import { Interval } from './Interval';
+import Welcome from '../Welcome';
+import { Counter } from '../Counter';
+import './Home.css';
+import { Form } from '../Form';
 
-function App() {
+export const Home = () => {
   const names = ["Ceci"];
 
   return (
@@ -17,10 +16,7 @@ function App() {
         ))}
         <Counter />
         <Form />
-        <Interval />
       </header>
     </div>
   );
 }
-
-export default App;
