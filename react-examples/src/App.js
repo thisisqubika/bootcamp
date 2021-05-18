@@ -1,8 +1,9 @@
-import Welcome from './Welcome';
-import { Counter } from './Counter';
+import React from 'react';
+import Welcome from './components/Welcome';
+import { Counter } from './components/Counter';
+import { DisplayCount } from './components/DisplayCount';
+import { Lessons } from './components/Lessons';
 import './App.css';
-import { Form } from './Form';
-import { Interval } from './Interval';
 
 function App() {
   const names = ["Ceci"];
@@ -16,8 +17,9 @@ function App() {
           </Welcome>
         ))}
         <Counter />
-        <Form />
-        <Interval />
+        <DisplayCount />
+        <br />
+        <Lessons />
       </header>
     </div>
   );
