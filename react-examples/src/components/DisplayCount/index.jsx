@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { decrement, increment } from '../reducers/counter.js';
+import { decrement, increment } from '../../reducers/counter.js';
 
 export const DisplayCount = () => {
   const dispatch = useDispatch();
