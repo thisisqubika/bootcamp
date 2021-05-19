@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleStatus } from '../reducers/lessons.js';
+import { toggleStatus } from '../../reducers/lessons.js';
 import './Lessons.css';
 
 export const Lessons = () => {
