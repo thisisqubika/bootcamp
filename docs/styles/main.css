@@ -1,27 +1,17 @@
 
 body {
   font-family: 'GT Walsheim Pro', sans-serif;
-  color: #fff
+  color: #77778F;
+  font-size: 1.3rem;
 }
 
 .Data-container {
   background: url('http://d17dednewomw88.cloudfront.net/assets/images/bootcamp/bars.svg');
-  color: #77778F;
-}
-
-.Logo {
-  max-width: 25rem;
-}
-
-.Topic-card {
-  color: #77778F;
-  font-size: 0.9rem;
 }
 
 .Topic-card .title {
   color: #000000;
   font-weight: bold;
-  font-size: 1.3rem;
 }
 
 .Topic-card .title > .separator {
@@ -30,12 +20,12 @@ body {
   margin: 0 15px;
 }
 
-.blue-line {
-  border-top: 2px solid blue;
+.violet-line {
+  border-top: 3px solid #A961FF;
   color: #C4C4C4;
   display: block;
-  margin: 10px 0;
-  width: 20px;
+  margin: 8px 0;
+  width: 30px;
 }
 
 .Lesson-card {
@@ -56,16 +46,15 @@ body {
   color: #0A0A36;
 }
 
-.Lesson-slides {
+.link {
   color: #2E4FEB;
   text-decoration: underline;
-  font-size: 0.9rem;
 }
 
 .Lesson-links{
   border-top: 1px solid #E5EAF4;
   color: #595959;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   display: flex;
   flex-direction: column;
 }
@@ -77,7 +66,12 @@ body {
 }
 
 .text-blue {
-  color: #2e4feb;
+  color: #1D1E5F;
+}
+
+.item {
+  color: #1D1E5F;
+  font-size: 1.6rem;
 }
 
 .underline-bars {
