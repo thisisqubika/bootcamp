@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1, h2 {
+  color: green;
+}
+
+#container {
+  background-color: beige;
+}
+
+.secondary-description {
+  color: grey;
+  font-style: italic;
+}
+
+.additional-box .secondary-description {
+  font-size: 14px;
+  color: green;
+}
+
+.external-link {
+  text-decoration: none;
+}
+
+.external-link:hover {
+  text-decoration: underline;
+}
+
+.main-box p:last-child {
+  color: red;
+}
+

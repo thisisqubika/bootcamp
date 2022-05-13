@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Example using Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex flex-col h-screen">
+      <header class="bg-lime-500 h-24">header</header>
+      <article class="flex flex-col lg:flex-row flex-grow">
+        <section class="bg-yellow-400 basis-1/4">section a</section>
+        <section class="bg-orange-400 basis-3/4 lg:basis-1/2">section b</section>
+        <section class="bg-yellow-400 lg:basis-1/4 hidden lg:block">section c</section>
+      </article>
+    </div>
+  </body>
+</html>

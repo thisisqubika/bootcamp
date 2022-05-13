@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: yellowgreen;
+  height: 100px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.card {
+  background-color: yellow;
+  flex-basis: 25%;
+}
+
+.card-main {
+  background-color: orange;
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content .card:last-child {
+    display: none;
+  }
+
+  .card-main {
+    flex-grow: 1;
+  }
+}
